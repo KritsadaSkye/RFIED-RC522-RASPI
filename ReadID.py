@@ -4,7 +4,7 @@ from time import sleep
 import csv
 import requests
 
-line_token = "y9sSLZUb3CvtB6HRuy5NjcazXu9m9M0tqTw8uIR"  # ใส่ LINE Notify Token ของคุณ
+line_token = ""  # ใส่ LINE Notify Token ของคุณ
 reader = SimpleMFRC522()
 
 def readCSV(datafile):
